@@ -25,7 +25,7 @@ export default function UgsaatanPage() {
             }`}
             style={{ transitionDelay: '200ms' }}
           >
-            {language === 'en' ? 'Mongolian Ethnic Groups' : 'Монголын Угсаатнууд'}
+            {language === 'en' ? 'Mongolian Ethnic Groups' : 'Монголын Угсаатан'}
           </h1>
           <p 
             className={`text-lg sm:text-xl text-amber-200 max-w-3xl mx-auto classic-text transition-all duration-1000 transform ${
@@ -35,7 +35,7 @@ export default function UgsaatanPage() {
           >
             {language === 'en' 
               ? 'Traditional Dance Styles Across Mongolia'
-              : 'Монголын уламжлалт бүжгийн хэв маягууд'
+              : 'Уламжлалт бүжгийн хэв маягууд'
             }
           </p>
         </div>

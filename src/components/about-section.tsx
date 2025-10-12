@@ -26,12 +26,12 @@ export default function AboutSection() {
           {/* Text Content */}
           <div>
             <h2 className="text-4xl font-bold text-gold mb-6 classic-heading">
-              {language === 'en' ? 'Our Dance Ensemble' : 'Манай бүжгийн баг'}
+              {language === 'en' ? 'Our Dance Ensemble' : 'Ц.СЭВЖИДИЙН нэрэмжит бүжгийн чуулга'}
             </h2>
             <p className="text-lg text-gold-light/90 mb-8 leading-relaxed classic-text">
               {language === 'en' 
                 ? 'Mongolia\'s premier traditional dance ensemble, dedicated to preserving and promoting our rich cultural heritage through authentic performances and innovative choreography.'
-                : 'Монголын тэргүүлэгч уламжлалт бүжгийн хамтлаг, жинхэнэ тоглолт болон шинэлэг хореографийн хүчээр манай баялаг соёлын өвийг хадгалж, дэмжихэд зориулагдсан.'
+                : 'Монголын уламжлалт бүжгийн чуулга, жинхэнэ тоглолт болон шинэлэг хореографийн хүчээр манай баялаг соёлын өвийг хадгалж, дэмжихэд зориулагдсан.'
               }
             </p>
             <div className="grid grid-cols-2 gap-6 mb-8">

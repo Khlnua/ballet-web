@@ -136,6 +136,6 @@ export interface UgsaatanDances {
         titleEn: "Zakhchin",
         titleMn: "Захчин",
         captionEn: "The Zakhchin live in Baruuntuurun, Züüngovi, Davst, and Malchin Districts of Uvs Province. They are an ethnic group that has excellently preserved the “bii biyelgee” (seated/ground dance). Men dance powerfully, embodying the grandeur of a hunter, while women move lyrically—swaying softly as if picking flowers or sprinkling water.",
-        captionMn: "Захчин угсаатан нь Увс аймгийн Баруунтуруун, Зүүнговь, Давст, Малчин сумуудаар нутаглан амьдардаг. Захчин угсаатнууд бий биелгээг маш сайн хадгалсан угсаатан юм. Эрчүүд нь хүчтэй, анчин хүний сүр жавхланг илтгэнэ. Эмэгтэй нь цэцэг түүх, ус дэвсэх мэт зөөлөн найган ганхах мэт уянгалаг.",
+        captionMn: "Захчин угсаатан нь Увс аймгийн Баруунтуруун, Зүүнговь, Давст, Малчин сумуудаар нутаглан амьдардаг. Захчин угсаатан бий биелгээг маш сайн хадгалсан угсаатан юм. Эрчүүд нь хүчтэй, анчин хүний сүр жавхланг илтгэнэ. Эмэгтэй нь цэцэг түүх, ус дэвсэх мэт зөөлөн найган ганхах мэт уянгалаг.",
     },
   ];

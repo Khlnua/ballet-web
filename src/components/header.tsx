@@ -28,7 +28,7 @@ export default function Header() {
   const danceStylesSubmenu = [
     { name: language === 'en' ? 'Featured' : 'Онцлох', href: '/featured' },
     { name: language === 'en' ? 'Dance Dramas' : 'Бүжгэн жүжгүүд', href: '/dancedrama' },
-    { name: language === 'en' ? 'Ethnic Groups' : 'Угсаатнууд', href: '/ugsaatan' },
+    { name: language === 'en' ? 'Ethnic Groups' : 'Угсаатан', href: '/ugsaatan' },
   ];
 
   const toggleLanguage = () => {

@@ -19,7 +19,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold text-gold classic-heading">
-                  {language === 'en' ? 'Mongolian National Ballet' : 'Монголын Ардын Бүжгийн Чуулга'}
+                  {language === 'en' ? 'Mongolian National Ballet' : 'Ц.Сэвжидийн нэрэмжит бүжгийн чуулга'}
                 </span>
               </div>
             </div>
@@ -38,8 +38,8 @@ export default function Footer() {
               <Link href="/about" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
                 {t('navigation.about')}
               </Link>
-              <Link href="/dancers" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
-                {t('navigation.dancers')}
+              <Link href="/featured" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
+                {t('navigation.featured')}
               </Link>
               <Link href="/choreographer" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
                 {t('navigation.choreographer')}
@@ -47,8 +47,8 @@ export default function Footer() {
               <Link href="/dancedrama" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
                 {t('navigation.dancedrama')}
               </Link>
-              <Link href="/featured" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
-                {t('navigation.featured')}
+              <Link href="/dancers" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
+                {t('navigation.dancers')}
               </Link>
               <Link href="/ugsaatan" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
                 {t('navigation.ugsaatan')}

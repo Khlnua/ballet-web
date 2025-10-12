@@ -35,14 +35,16 @@ export default function HeroCarousel() {
     <>
       <section className="relative overflow-hidden" suppressHydrationWarning>
         {/* Video Container - Full Width */}
-        <div className="w-full">
+        <div className="w-full relative">
           {!videoError && (
             <video
               ref={videoRef}
               className="w-full h-auto"
               style={{
-                objectFit: 'contain',
-                objectPosition: 'center'
+                objectFit: 'cover',
+                objectPosition: 'center',
+                minHeight: '60vh',
+                maxHeight: '80vh'
               }}
               autoPlay
               muted
@@ -56,9 +58,12 @@ export default function HeroCarousel() {
               onLoadStart={() => console.log('Video loading started')}
               onCanPlay={() => console.log('Video can play')}
             >
-              <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="video/mp4" />
+              <source src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/durvun%20berh.mp4" type="video/mp4" />
             </video>
           )}
+          
+          {/* Dark Overlay for Better Logo Visibility */}
+          <div className="absolute inset-0 bg-black/60"></div>
           
           {/* Fallback Background Image */}
           {videoError && (

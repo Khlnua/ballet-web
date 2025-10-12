@@ -23,8 +23,11 @@ const config: NextConfig = {
     return config;
   },
   experimental: {
-    optimizePackageImports: ['lucide-react'],
+    // Disable problematic experimental features that can cause clientReferenceManifest errors
+    serverComponentsExternalPackages: [],
   },
+  // Add transpilePackages to ensure proper client/server boundary
+  transpilePackages: ['lucide-react'],
 };
 
 export default config;

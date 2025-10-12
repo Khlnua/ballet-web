@@ -30,9 +30,9 @@ export const featured: Featured[] = [
   {
     id: "3",
     titleEn: "Ethnic Groups",
-    titleMn: "Угсаатнууд",
+    titleMn: "Угсаатан",
     descriptionEn: "Traditional dance styles from different Mongolian ethnic groups and regions",
-    descriptionMn: "Монголын янз бүрийн угсаатнууд болон бүс нутгийн уламжлалт бүжгийн хэв маягууд",
+    descriptionMn: "Монголын олон угсаатнууд болон бүс нутгийн уламжлалт бүжгийн хэв маягууд",
     image: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/ugsaatan/buriad6.JPG",
     href: "/ugsaatan"
   }

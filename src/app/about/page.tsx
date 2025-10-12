@@ -54,7 +54,7 @@ export default function AboutPage() {
                     title: language === 'en' ? 'Foundation' : 'Үүсэл',
                     description: language === 'en' 
                       ? 'December 1, 1950 - Official founding date of the ensemble'
-                      : '1950 оны 12 сарын 01-нийг тус чуулга байгуулагдсан түүхэн он гэж тооцож өнөөг хүрлээ'
+                      : '1950 оны 12 сарын 1-нийг тус чуулга байгуулагдсан түүхэн он гэж тооцож өнөөг хүрлээ'
                   },
                   {
                     year: '2002',
@@ -233,23 +233,6 @@ export default function AboutPage() {
               </div>
             </div>
 </div>
-            </div>
-            {/* Performance Images Gallery */}
-            <div className="bg-gradient-to-r from-gold/10 to-gold/5 rounded-xl p-4">
-              <h4 className="text-lg font-bold text-gold mb-4 text-center">
-                {language === 'en' ? 'Memorable Performances Around the World' : 'Дэлхийн олон улсад тоглосон дурсамжтай тоглолтууд'}
-              </h4>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                {aboutImages.map((image, index) => (
-                  <div key={image.id} className="relative h-32 rounded-lg overflow-hidden group cursor-pointer">
-                    <img
-                      src={image.src}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         )}
