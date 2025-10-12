@@ -84,13 +84,15 @@ export default function HeroCarousel() {
           <div className="w-full max-w-7xl mx-auto flex justify-center">
             {/* Main Logo - Centered and Larger */}
             <div className="relative">
-              <Image
-                src="/dancerLOGO.png"
+              <img
+                src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/dancerLOGO.png"
                 alt="Mongolian National Ballet"
-                width={800}
-                height={400}
                 className="w-full max-w-4xl h-auto drop-shadow-2xl"
-                priority
+                style={{ maxWidth: '800px', height: 'auto' }}
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = '/dancerLOGO.png';
+                }}
               />
             </div>
           </div>
