@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Play, Calendar, MapPin, Star, X } from 'lucide-react';
 import { useLanguage } from '@/contexts/language-context';
-import Image from 'next/image';
 
 export default function HeroCarousel() {
   const { t, language } = useLanguage();
@@ -26,7 +25,7 @@ export default function HeroCarousel() {
         console.log('Video loading timeout, using fallback');
         setVideoError(true);
       }
-    }, 10000); // 10 second timeout
+    }, 10000);
 
     return () => clearTimeout(timeout);
   }, []);

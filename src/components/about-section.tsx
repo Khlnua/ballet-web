@@ -26,12 +26,12 @@ export default function AboutSection() {
           {/* Text Content */}
           <div>
             <h2 className="text-4xl font-bold text-gold mb-6 classic-heading">
-              {language === 'en' ? 'Our Dance Ensemble' : 'Ц.СЭВЖИДИЙН нэрэмжит бүжгийн чуулга'}
+              {language === 'en' ? 'Our Dance Ensemble' : 'Ц.СЭВЖИД-н нэрэмжит бүжгийн чуулга'}
             </h2>
             <p className="text-lg text-gold-light/90 mb-8 leading-relaxed classic-text">
               {language === 'en' 
-                ? 'Mongolia\'s premier traditional dance ensemble, dedicated to preserving and promoting our rich cultural heritage through authentic performances and innovative choreography.'
-                : 'Монголын уламжлалт бүжгийн чуулга, жинхэнэ тоглолт болон шинэлэг хореографийн хүчээр манай баялаг соёлын өвийг хадгалж, дэмжихэд зориулагдсан.'
+                ? 'The primary purpose of the Mongolian Ballet is to research, preserve, and promote the traditional dance heritage of Mongolia, which reflects the nation’s rich history, nomadic lifestyle, and ancestral bii biyelgee traditions. The Ensemble is dedicated to sustaining and developing the folk dance styles of Mongolian peoples, with the aim of representing and promoting our cultural identity and artistic excellence both domestically and on the international stage.'
+                : 'ҮУИТ-ын Бүжгийн чуулгын гол зорилго нь:  Монголын түүх соёл, нүүдэлчин ард түмний аж байдал, өвөг дээдсээс уламжлагдан ирсэн язгуур бий биелгээнээс улбаатай  Монгол туургатны олон усаатны дэгийг сурч, судалж өвлөн уламжлуулж Монголдоо төдийгүй олон улсад бахархалт өв соёлоо  бүжгийн урлагаар таниулхад оршино.'
               }
             </p>
             <div className="grid grid-cols-2 gap-6 mb-8">

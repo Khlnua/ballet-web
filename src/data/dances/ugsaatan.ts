@@ -24,7 +24,7 @@ export interface UgsaatanDances {
       titleEn: "Khalkh",
       titleMn: "Халх",
       captionEn: 'The Khalkha are the principal ethnic group, dispersed across the central as well as the western and eastern regions of Mongolia. The hallmark of their dance is a broad chest posture, many varied positions of the arms, shoulder shudders and tremors, rapid leg switches, and galloping movements.',
-      captionMn: "Халх угсаатан нь Монгол ороны төв болон баруун зүүн бүсүүдээр тархан суусан голлох угсаатан юм. Тэдний хөдөлгөөний гол онцлог нь ханхгар цээж, гарны олон төрлийн байрлалууд, мөрний сугсараа чичэргээ хөлний хурдтай сольбоо, давхилдах хөдөлгөөнүүд оршдог.",
+      captionMn: "Халх угсаатан нь Монгол ороны төв болон баруун зүүн бүсүүдээр тархан суусан голлох угсаатан юм. Тэдний хөдөлгөөний гол онцлог нь ханхгар цээж, гарын олон төрлийн байрлалууд, мөрний сугсараа чичэргээ хөлний хурдтай сольбоо, давхилдах хөдөлгөөнүүд оршдог. ",
     },
     {
         id: "2",
@@ -40,7 +40,7 @@ export interface UgsaatanDances {
         titleEn: "Myangad",
         titleMn: "Мянгад",
         captionEn: "The Myangad are settled across Bayan-Ölgii, Uvs, and Khovd Provinces, and in smaller numbers in Bulgan and Zavkhan. In this group, men dance with strong movements of the shoulders and chest, while women are gentle yet dignified, often performing elegant cup-balancing bii biyelgee.",
-        captionMn: "Мянгад угсаатан нь Баян-Өлгий, Увс, Ховд аймгуудаар мөн цөөн тоогоор Булган, Завхан аймгуудаар тархан суурьшдаг. Уг угсаатны эрчүүд нь мөр, цээжээр хүчтэй хөдөлгөөн хийж биелдэг бол эмэгтэйчүүд нь уянгалаг зөөлөн хэдий ч эрхэмсэг мөн аягатай бий биелгээ хийдгээрээ онцлог.",
+        captionMn: "Мянгад угсаатан нь Баян-Өлгий, Увс, Ховд аймгуудаар мөн цөөн тоогоор Булган, Завхан аймгуудаар тархан суурьшдаг. Уг угсаатны эрчүүд нь мөр, цээжээр хүчтэй хөдөлгөөн хийж биелдэг бол эмэгтэйчүүд нь уянгалаг зөөлөн хэдий ч эрхэмсэг мөн аягатай бий биелгээ хийдгээрээ онцлог. ",
     },
     {
         id: "4",
@@ -48,7 +48,7 @@ export interface UgsaatanDances {
         titleEn: "Tsaatan (Dukha)",
         titleMn: "Цаатан",
         captionEn: "The Tsaatan live around the Ulaan Taiga mountains in Tsagaannuur District of Khövsgöl Province. They herd reindeer and are a reindeer-herding ethnic group. Their dance typically features frame drums, jaw harps, and folk songs, with lively, energetic movements connected to reindeer.",
-        captionMn: "Цаатан угсаатан нь Хөвсгөл аймгийн Цагааннуур сумын Улаан тайгын уулсаар нутагладаг. Тэд цаа буга маллаж амьдардаг ганц угсаатан юм. Уг угсаатны бүжгийн онлог бол голдуу хэнгэрэг, хамрын хуур, аман дуугаар цаа бугатай холбоотой цоглог эрчимтэй хөдөгөөн хийдгээрээ онлог билээ.",
+        captionMn: "Цаатан угсаатан нь Хөвсгөл аймгийн Цагааннуур сумын Улаан тайгын уулсаар нутагладаг. Тэд цаа буга маллаж амьдардаг ганц угсаатан юм. Уг угсаатны бүжгийн онлог бол голдуу хэнгэрэг, хамрын хуур, аман дуугаар цаа бугатай холбоотой цоглог эрчимтэй хөдөгөөн хийдгээрээ онцлог билээ. ",
     },
     {
         id: "5",
@@ -56,7 +56,7 @@ export interface UgsaatanDances {
         titleEn: "Bayad",
         titleMn: "Баяд",
         captionEn: "The Bayad live in Uvs and Khovd Provinces and in some districts of Bayan-Ölgii. Their dances feature floor-level movements—sitting on the ground, kneeling, bending and arching—along with fine",
-        captionMn: "Баяд угсаатан нь Увс, Ховд аймагт мөн Баян-Өлгий аймгийн зарим сумдуудаар нутагтай. Баяд угсаатны бүжигт газар суугаа хөдөлгөөн, өвдөг дээр суун тонгойж гэдийх, гар мөрөөр нарийн хөдөлгөөн хийн мөрөөрөө толгойгоо түлхэн нөгөө мөрлүүгээ шилжүүлэн биелдэг онцлог бүжигтэй угсаатан юм.",
+        captionMn: "Баяд угсаатан нь Увс, Ховд аймагт мөн Баян-Өлгий аймгийн зарим сумдуудаар нутагтай. Баяд угсаатны бүжигт газар суугаа хөдөлгөөн, өвдөг дээр суун тонгойж гэдийх, гар мөрөөр нарийн хөдөлгөөн хийн мөрөөрөө толгойгоо түлхэн нөгөө мөрлүүгээ шилжүүлэн  биелдэг онцлог бүжигтэй угсаатан юм.",
     },
     {
         id: "6",
@@ -64,7 +64,7 @@ export interface UgsaatanDances {
         titleEn: "Buryat",
         titleMn: "Буриад",
         captionEn: "Buryats live mainly in the northern parts of Khentii, Khövsgöl, and Selenge Provinces, and in smaller numbers in Bulgan and Dornod. In Buryat dance, they draw the “davsagan khuur” and sing, dancing in a circle. A signature element is dancing in a circle while holding hands and shaking the tassel on the top of the hat.",
-        captionMn: "Буриад угсаатнууд ихэвчлэн Хэнтий, Хөвсгөл, Сэлэнгэ аймгйин хойд хэсэгт, мөн Булган Дорнод аймгуудад цөөн тоогоор бий. Буриадууд Давсган хуураан татаж, дуугаан дуулж тойрон бүжиг хийнэ. Тэдний бүжгийн онлог гэвэл гар гараан барин малгайн дээрх цацагаа хөдөлгөн тойрон бүжиг хийдэг.",
+        captionMn: "Буриад угсаатнууд ихэвчлэн Хэнтий, Хөвсгөл, Сэлэнгэ аймгйин хойд хэсэгт, мөн Булган Дорнод аймгуудад цөөн тоогоор бий. Буриадууд Давсган хуураан татаж, дуугаан дуулж тойрон бүжиг хийнэ. Тэдний бүжгийн онлог гэвэл гар гараан барин малгайн дээрх цацаг аа хөдөлгөн тойрон бүжиг хийдэг.",
     },
     {
         id: "7",
@@ -88,7 +88,7 @@ export interface UgsaatanDances {
         titleEn: "Dariganga",
         titleMn: "Дарьганга",
         captionEn: "The Dariganga live in Dariganga, Naran, Ongon, Asgat, and Bayandelger Districts of Sükhbaatar Province. Dariganga people are renowned for their ornaments and handicrafts; accordingly, their dances are often dignified and poised, showcasing decorative accessories and finery.",
-        captionMn: "Дарьганга угсаатан нь Сүхбаатар аймгийн Дарьганга, Наран, Онгон, Асгат, Баяндэлгэр сумдын нутагт амьдардаг. Дарьганначууд гоёл чимэглэл, гар урлалаараа алдартай. Тиймдээ ч бүжгэн зүүсгэл гоёлоо гайхуулсан намбалаг байх нь олонтой.",
+        captionMn: "Дарьганга угсаатан нь Сүхбаатар аймгийн Дарьганга, Наран, Онгон, Асгат, Баяндэлгэр сумдын нутагт амьдардаг. Дарьганначууд гоёл чимэглэл, гар урлалаараа алдартай. Тиймдээ ч бүжиг нь зүүсгэл гоёлоо гайхуулсан намбалаг байх нь олонтой. ",
     },
     {
         id: "10",
@@ -104,7 +104,7 @@ export interface UgsaatanDances {
         titleEn: "Altai Uriankhai",
         titleMn: "Алтайн Урианхай",
         captionEn: "The Altai Uriankhai live around the Altai Mountains in Bayan-Ölgii, Khovd, and Zavkhan Provinces. Their dance is characterized by imitative movements of mountains, waters, wildlife, the flight of birds, and the leaping of deer.",
-        captionMn: "Алтайн Урианхай угсаатан нь Баян-Өлгий, Ховд,Завхан айигийн алтайн уулс орчмоор амьдардаг. Бүжгийн онцлог нь уул, ус ан амьтаны хөдөлгөөн, шувууны нисэх, бугын дэвэлзэх мэт хөдөлгөөнүүдийг дуурайсан хөдөлгөөнүүд зонхилно.",
+        captionMn: "Алтайн Урианхай угсаатан нь Баян-Өлгий, Ховд,Завхан аймгийн алтайн уулс орчмоор амьдардаг. Бүжгийн онцлог нь уул, ус ан амьтаны хөдөлгөөн, шувууны нисэх, бугын дэвэлзэх мэт хөдөлгөөнүүдийг дуурайсан хөдөлгөөнүүд зонхилно.",
     },
     {
         id: "12",
@@ -112,7 +112,7 @@ export interface UgsaatanDances {
         titleEn: "Barga",
         titleMn: "Барга",
         captionEn: "The Barga people have long lived in Khölönbuir District of Dornod Province and have preserved their customs to this day. A distinctive feature of Barga dance is that both men and women perform powerful movements and often dance facing each other in pairs.",
-        captionMn: "Барга угсаатан нь эртнээс одоогийн Дорнод аймгийн Хөлөнбуйр суманд нутаглаж өнөөг хүртэл ёс заншил аа хадгалсаар ирсэн. Барга угсаатны хөдөлгөөний онцлог бол эр, эм ялгаагүй хүчирхэг хөдөлгөөн хийдэг бөгөөд ихэвчлэн өрөөлдөж бүжиглэдгээрээ илүү онцлог билээ.",
+        captionMn: "Барга угсаатан нь эртнээс одоогийн Дорнод аймгийн Хөлөнбуйр суманд нутаглаж өнөөг хүртэл ёс  заншил аа хадгалсаар ирсэн билээ. Барга угсаатны хөдөлгөөний онцлог бол эр, эм ялгаагүй хүчирхэг хөдөлгөөн хийдэг бөгөөд ихэвчлэн өрөөлдөж бүжиглэдгээрээ илүү онцлог билээ. ",
     },
     {
         id: "13",
@@ -120,7 +120,7 @@ export interface UgsaatanDances {
         titleEn: "Khoton",
         titleMn: "Хотон",
         captionEn: "The Khoton inhabit Tes and Ömnögovi Districts of Uvs Province. Their style is marked by brisk, lively bii biyelgee. Movements keep tight rhythm and often imitate quick actions like gathering and sifting grain.",
-        captionMn: "Хотон угсаатан нь Увс аймгийн Тэс, Өмнөговь сумдуудаар нутгладаг. Хэмнэл нь цоглог түргэн бий биелгээгээр онцлог. Хөдөлгөөн нь хэмнэлдээ цохицсон түргэн тариа будаа түүх, шигшэх зэрэг хөдөлгөөн хийдгээрээ онцлог.",
+        captionMn: "Хотон угсаатан нь Увс аймгийн Тэс, Өмнөговь сумдуудаар нутгладаг. Хэмнэл нь цоглог түргэн бий биелгээгээр онцлог. Хөдөлгөөн нь хэмнэлдээ зохицсон түргэн тариа будаа түүх, шигшэх зэрэг хөдөлгөөн хийдгээрээ онцлог.",
     },  
     {
         id: "14",
@@ -128,7 +128,7 @@ export interface UgsaatanDances {
         titleEn: "Ööld",
         titleMn: "Өөлд",
         captionEn: "The Ööld live in Khatgal, Tsetserleg, and Mörön Districts of Khövsgöl Province. Ööld men perform bii biyelgee with broad, grounded steps that express the vigor of herdsmen and hunters, while women move with soft steps, waving their hands and flexibly rolling the shoulders.",
-        captionMn: "Өөлд угсаатан нь Хөвсгөл аймгийн Хатгал, Цэцэрлэг, Мөрөн сумдуудар нутаглан суудаг. Өөлд угсаатны эрчүүд адуучин эрс, анчны ёүр жавхланг харуулсан алхам том газар тулсан бий биелгээ, эмэгтэйчүүд нь гараа даллаж мөр уян хатан хөдөлгөж зөөлөн алхдаг онцлогтой.",
+        captionMn: "Өөлд угсаатан нь Хөвсгөл аймгийн Хатгал, Цэцэрлэг, Мөрөн сумдуудар нутаглан суудаг. Өөлд угсаатны эрчүүд адуучин эрс, анчны сүр жавхланг харуулсан алхам том газар тулсан бий биелгээ, эмэгтэйчүүд нь гараа даллаж мөр уян хатан хөдөлгөж зөөлөн алхдаг онцлогтой.",
     },
     {
         id: "15",
@@ -136,6 +136,6 @@ export interface UgsaatanDances {
         titleEn: "Zakhchin",
         titleMn: "Захчин",
         captionEn: "The Zakhchin live in Baruuntuurun, Züüngovi, Davst, and Malchin Districts of Uvs Province. They are an ethnic group that has excellently preserved the “bii biyelgee” (seated/ground dance). Men dance powerfully, embodying the grandeur of a hunter, while women move lyrically—swaying softly as if picking flowers or sprinkling water.",
-        captionMn: "Захчин угсаатан нь Увс аймгийн Баруунтуруун, Зүүнговь, Давст, Малчин сумуудаар нутаглан амьдардаг. Захчин угсаатан бий биелгээг маш сайн хадгалсан угсаатан юм. Эрчүүд нь хүчтэй, анчин хүний сүр жавхланг илтгэнэ. Эмэгтэй нь цэцэг түүх, ус дэвсэх мэт зөөлөн найган ганхах мэт уянгалаг.",
+        captionMn: "Захчин угсаатан нь Увс аймгийн Баруунтуруун, Зүүнговь, Давст, Малчин сумуудаар нутаглан амьдардаг. Захчин угсаатнууд бий биелгээг маш сайн хадгалсан угсаатан юм. Эрчүүд нь хүчтэй, анчин хүний сүр жавхланг илтгэнэ. Эмэгтэй нь цэцэг түүх, ус дэвсэх мэт зөөлөн найган ганхах мэт уянгалаг.",
     },
   ];
