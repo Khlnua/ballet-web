@@ -46,15 +46,15 @@ export default function AboutPage() {
           <div className="space-y-16">
             {/* Director's Message */}
             <div className="bg-gradient-to-r from-gold/10 to-gold/5 rounded-2xl p-8">
-              <div className="flex gap-8 items-stretch">
+              <div className="flex flex-col lg:flex-row gap-8 lg:items-stretch">
                 {/* Director Image */}
-                <div className="flex-shrink-0 flex flex-col justify-between">
+                <div className="flex-shrink-0 flex flex-col justify-between lg:max-w-sm">
                   <Image 
                     src="https://news.mn/wp-content/uploads/2019/05/X8A23701-404x500.jpg" 
                     width={400} 
                     height={500} 
                     alt={language === 'en' ? 'Tsoggerel Gonchig, Director' : 'Гончигийн Цоггэрэл, Захирал'}
-                    className="rounded-lg shadow-lg object-cover w-full h-auto"
+                    className="rounded-lg shadow-lg object-cover w-full h-auto mx-auto lg:mx-0"
                   />
                   <div className="mt-4 text-center">
                     <h4 className="text-lg font-bold text-gold classic-heading mb-2">
@@ -107,10 +107,21 @@ export default function AboutPage() {
 
             {/* Timeline */}
             <div className="relative">        
-              <div className="relative flex gap-12">
-                {/* Left side - Timeline */}
-                <div className="w-1/2">
-                  <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gold/30"></div>
+              <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-12">
+                {/* Mobile: Theater Image on top */}
+                <div className="w-full lg:hidden mb-8">
+                  <Image 
+                    src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teartzurag.jpg" 
+                    width={400} 
+                    height={600} 
+                    alt={language === 'en' ? 'National Grand Art Theater' : 'Үндэсний Урлагийн Их Театр'}
+                    className="rounded-lg shadow-2xl object-cover w-full h-auto"
+                  />
+                </div>
+
+                {/* Timeline */}
+                <div className="w-full lg:w-1/2">
+                  <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gold/30 hidden lg:block"></div>
                   
                   {[
                     {
@@ -147,8 +158,8 @@ export default function AboutPage() {
                   ))}
                 </div>
 
-                {/* Right side - Theater Image */}
-                <div className="w-1/2">
+                {/* Desktop: Theater Image on right */}
+                <div className="hidden lg:block w-1/2">
                   <div className="h-full">
                     <Image 
                       src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teartzurag.jpg" 
