@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { aboutImages } from '@/data/about-images';
 import { useLanguage } from '@/contexts/language-context';
 import { useState } from 'react';
@@ -43,44 +44,121 @@ export default function AboutPage() {
         {/* Theater History Section */}
         {activeTab === 'theater' && (
           <div className="space-y-16">
+            {/* Director's Message */}
+            <div className="bg-gradient-to-r from-gold/10 to-gold/5 rounded-2xl p-8">
+              <div className="flex gap-8 items-stretch">
+                {/* Director Image */}
+                <div className="flex-shrink-0 flex flex-col justify-between">
+                  <Image 
+                    src="https://news.mn/wp-content/uploads/2019/05/X8A23701-404x500.jpg" 
+                    width={400} 
+                    height={500} 
+                    alt={language === 'en' ? 'Tsoggerel Gonchig, Director' : 'Гончигийн Цоггэрэл, Захирал'}
+                    className="rounded-lg shadow-lg object-cover w-full h-auto"
+                  />
+                  <div className="mt-4 text-center">
+                    <h4 className="text-lg font-bold text-gold classic-heading mb-2">
+                      {language === 'en' ? 'Tsoggerel Gonchig' : 'Гончигийн Цоггэрэл'}
+                    </h4>
+                    <p className="text-gold-light/90 classic-text text-base leading-relaxed">
+                      {language === 'en' 
+                        ? 'Honored Artist of Mongolia, Director of the National Grand Art Theatre'
+                        : 'Үндэсний урлагийн их театрын захирал, Урлагийн гавъяат зүтгэлтэн'
+                      }
+                    </p>
+                  </div>
+                </div>
+                
+                {/* Director's Message */}
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-gold mb-4 classic-heading">
+                    {language === 'en' ? 'Director\'s Message' : 'Захирлын мэндчилгээ'}
+                  </h3>
+                  <div className="text-gold-light/90 classic-text leading-relaxed space-y-4">
+                    {language === 'en' ? (
+                      <div>
+                        <p className="mb-4">
+                          This year marks the 75th anniversary of the founding of the National Grand Art Theatre. Celebrating this milestone holds great significance, as it allows us to honor, promote, and widely share the invaluable contributions and achievements our institution has made to the history of both national and world culture and art.
+                        </p>
+                        <p className="mb-4">
+                          In commemoration of this anniversary, we have undertaken various initiatives, including the publication of books and brochures chronicling the theatre's historic journey, the production of DVDs and CDs, the creation of television and radio programs, the dissemination of informative series on social media, and the making of a documentary film. We are also organizing a grand Gala performance to celebrate this occasion.
+                        </p>
+                        <p>
+                          We believe that the theatre's artistic endeavors and activities, as the pioneering institution of traditional performing arts, play an important role in nurturing patriotism among the younger generation, strengthening national consciousness, and instilling pride in our cultural heritage. Furthermore, we hope that our continued work will significantly contribute to promoting Mongolia abroad and to authentically representing the rich, unique, and intangible cultural heritage of our nation.
+                        </p>
+                      </div>
+                    ) : (
+                      <div>
+                        <p className="mb-4">
+                          Үндэсний урлагийн их театрын үүсэн байгуулагдсаны 75 жилийн ойн баярт үйл явдал энэ онд тохиож байна. Байгууллагынхаа тэгш ойг тэмдэглэх нь улс орныхоо болоод дэлхийн нийтийн ёоёл, урлагийн түүхэнд манай хамт олны гүйцэтгэсэн үүрэг, бүтээсэн гавъяаг суртачлан таниулах, түгээн дэлгэрүүлэхэд онцгой ач холбогдолтой билээ.
+                        </p>
+                        <p className="mb-4">
+                          Ойгоо угтаж их театрынхаа түүхэн үйл явдалтай холбоотой ном, товхимол хэвлүүлэх, бүтээл туурвилаа суртачлан таниулах, DVD, CD, бүтээх, телевиз, радиогийн нэвтрүүлэг бэлтгэх, олон нийтийн сүлжээгээр танин мэдэхүйн цуврал мэдээлэл явуулах, баримтат кино бүтээх, ойн хүндэтгэлийн арга хэмжээ-Гала тоглолтыг зохион байгуулхаар ажиллаа.
+                        </p>
+                        <p>
+                          Манай театрын явуулдаг үйл ажиллагаа, уран бүтээлүүд ардын урлагийн ууган байгуулгаараа бахархах, залуу үеийнхнийхээ эх оронч үзлийг төлөвшүүлэх, олон түмний үндэсний ухамсрыг сэргээхэд томоохон түлхэц болх олон талын нөлөөтэй гэж үзэж байна. Цаашилбал гадаад оронд улс орноо суртачлах, соёлын биет бус өвийн шавхагдашгүй, давтагдашгүй өвөрмөц шинж байдлыг үнэн бодитоор таниулахад ихээхэн хувь нэмэр болно хэмээн найдаж байна.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Timeline */}
             <div className="relative">        
-              <div className="relative">
-                <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gold/30"></div>
-                
-                {[
-                  {
-                    year: '1950',
-                    title: language === 'en' ? 'Foundation' : 'Үүсэл',
-                    description: language === 'en' 
-                      ? 'December 1, 1950 - Official founding date of the ensemble'
-                      : '1950 оны 12 сарын 1-нийг тус чуулга байгуулагдсан түүхэн он гэж тооцож өнөөг хүрлээ'
-                  },
-                  {
-                    year: '2002',
-                    title: language === 'en' ? 'Academic Title' : 'Эрдмийн цол',
-                    description: language === 'en'
-                      ? 'Awarded the "Academic" title by Resolution No. 166, becoming "Academic Ensemble of National Song and Dance"'
-                      : 'Монгол улсын Засгийн газар 2002 онд тус чуулгын олон жил хүсэн хүлээсэн "Эрдмийн" хэмээх цолыг 166 дугаар тогтоолоор олгож "Үндэсний дуу бүжгийн Эрдмийн чуулга" хэмээн өөрчлөн'
-                  },
-                  {
-                    year: '2016',
-                    title: language === 'en' ? 'Current Name' : 'Одоогийн нэр',
-                    description: language === 'en'
-                      ? 'Renamed to "National Grand Art Theater" by Resolution No. 129'
-                      : '2016 онд МУ-н Засгийн газрийн 129 дугаар тогтоолоор Үндэсний Урлагийн Их Театр гэж нэрлэсэн'
-                  }
-                ].map((item, index) => (
-                  <div key={index} className="relative flex items-start mb-12">
-                    <div className="flex-shrink-0 w-16 h-16 bg-gold rounded-full flex items-center justify-center text-black font-bold text-lg z-10">
-                      {item.year}
+              <div className="relative flex gap-12">
+                {/* Left side - Timeline */}
+                <div className="w-1/2">
+                  <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gold/30"></div>
+                  
+                  {[
+                    {
+                      year: '1950',
+                      title: language === 'en' ? 'Foundation' : 'Үүсэл',
+                      description: language === 'en' 
+                        ? 'December 1, 1950 - Official founding date of the ensemble'
+                        : '1950 оны 12 сарын 1-нийг тус чуулга байгуулагдсан түүхэн он гэж тооцож өнөөг хүрлээ'
+                    },
+                    {
+                      year: '2002',
+                      title: language === 'en' ? 'Academic Title' : 'Эрдмийн цол',
+                      description: language === 'en'
+                        ? 'Awarded the "Academic" title by Resolution No. 166, becoming "Academic Ensemble of National Song and Dance"'
+                        : 'Монгол улсын Засгийн газар 2002 онд тус чуулгын олон жил хүсэн хүлээсэн "Эрдмийн" хэмээх цолыг 166 дугаар тогтоолоор олгож "Үндэсний дуу бүжгийн Эрдмийн чуулга" хэмээн өөрчлөн'
+                    },
+                    {
+                      year: '2016',
+                      title: language === 'en' ? 'Current Name' : 'Одоогийн нэр',
+                      description: language === 'en'
+                        ? 'Renamed to "National Grand Art Theater" by Resolution No. 129'
+                        : '2016 онд МУ-н Засгийн газрийн 129 дугаар тогтоолоор Үндэсний Урлагийн Их Театр гэж нэрлэсэн'
+                    }
+                  ].map((item, index) => (
+                    <div key={index} className="relative flex items-start mb-12">
+                      <div className="flex-shrink-0 w-16 h-16 bg-gold rounded-full flex items-center justify-center text-black font-bold text-lg z-10">
+                        {item.year}
+                      </div>
+                      <div className="ml-8 flex-1">
+                        <h3 className="text-2xl font-bold text-gold mb-4 classic-heading">{item.title}</h3>
+                        <p className="text-gold-light/90 classic-text leading-relaxed">{item.description}</p>
+                      </div>
                     </div>
-                    <div className="ml-8 flex-1">
-                      <h3 className="text-2xl font-bold text-gold mb-4 classic-heading">{item.title}</h3>
-                      <p className="text-gold-light/90 classic-text leading-relaxed">{item.description}</p>
-                    </div>
+                  ))}
+                </div>
+
+                {/* Right side - Theater Image */}
+                <div className="w-1/2">
+                  <div className="h-full">
+                    <Image 
+                      src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teartzurag.jpg" 
+                      width={400} 
+                      height={800} 
+                      alt={language === 'en' ? 'National Grand Art Theater' : 'Үндэсний Урлагийн Их Театр'}
+                      className="rounded-lg shadow-2xl object-cover w-full h-full"
+                    />
                   </div>
-                ))}
+                </div>
               </div>
             </div>
 

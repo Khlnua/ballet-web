@@ -22,7 +22,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "Ц.Сэвжид",
         musicbyEn: "G.Tserendorj",
         musicbyMn: "Г.Цэрэндорж",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/saalichin.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/eeruul.mp4'
     },
     {
         id: "2",
@@ -46,7 +46,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "С.Сүхбаатар",
         musicbyEn: "R.Bat-Erdene",
         musicbyMn: "Р.Бат-Эрдэнэ",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/durvun%20berh.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/4berh.mp4'
     },
     {
         id: "4",
@@ -58,7 +58,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "Д.Баярбаатар",
         musicbyEn: "M.Birvaa",
         musicbyMn: "М.Бирваа",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/hunnu%20duuli.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/hunnuduuli.mp4'
     },
     {
         id: "5",
@@ -70,7 +70,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "С.Сүхбаатар",
         musicbyEn: "Dancers",
         musicbyMn: "Бүжигчид",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/hengergiin%20bayr.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/hengereg.mp4'
     },
     {
         id: "6",
@@ -82,7 +82,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "С.Сүхбаатар",
         musicbyEn: "R.Bat-Erdene",
         musicbyMn: "Р.Бат-Эрдэнэ",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/durvun%20oiradiin%20uria.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/4oirad.mp4'
     },
     {
         id: "7",
@@ -94,7 +94,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "Д.Энхгэрэл",
         musicbyEn: "R.Bat-Erdene",
         musicbyMn: "Р.Бат-Эрдэнэ",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/hunbusguichuud.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/hunbusgui.mp4'
     },
     {
         id: "8",
@@ -106,7 +106,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "Х.Хашхүү",
         musicbyEn: "B.Tsatsral",
         musicbyMn: "Б.Цацрал",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/gal%20golomt.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/galgolomt.mp4'
     },
     {
         id: "9",
@@ -118,6 +118,6 @@ export const performances: Ontsloh[] = [
         choreographerMn: "С.Сүхбаатар",
         musicbyEn: "L.Byambadorj",
         musicbyMn: "Л.Бямбадорж",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/durvun%20tunsag.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/4tunsag.mp4'
     }
 ]

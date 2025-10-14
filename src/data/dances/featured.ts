@@ -15,7 +15,7 @@ export const featured: Featured[] = [
     titleMn: "Онцлох бүжгүүд",
     descriptionEn: "Curated collection of the most beautiful and significant traditional Mongolian dances",
     descriptionMn: "Монголын уламжлалт бүжгийн сор болсон бүтээлүүд",
-    image: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bujgenjujig/mongolbaharhal3.jpg",
+    image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/ontsloh.jpg',
     href: "/featured"
   },
   {

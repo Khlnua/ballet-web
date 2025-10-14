@@ -8,7 +8,8 @@ const config: NextConfig = {
       'picsum.photos',
       'pub-c732fae67a4540d5ae377e19b62491a7.r2.dev',
       'static.vecteezy.com',
-      'images.squarespace-cdn.com'
+      'images.squarespace-cdn.com',
+      'news.mn'
     ],
   },
   webpack: (config, { isServer }) => {

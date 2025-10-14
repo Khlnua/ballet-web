@@ -57,7 +57,7 @@ export default function HeroCarousel() {
               onLoadStart={() => console.log('Video loading started')}
               onCanPlay={() => console.log('Video can play')}
             >
-              <source src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/durvun%20berh.mp4" type="video/mp4" />
+              <source src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/4berh.mp4" type="video/mp4" />
             </video>
           )}
           

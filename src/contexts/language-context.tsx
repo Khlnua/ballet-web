@@ -70,7 +70,7 @@ const translations = {
   },
   mn: {
     'navigation.home': 'Нүүр',
-    'navigation.danceStyles': 'Бүжигний хэв маяг',
+    'navigation.danceStyles': 'Уран бүтээл',
     'navigation.about': 'Бидний тухай',
     'navigation.dancers': 'Бүжигчид',
     'navigation.choreographer': 'Бүжиг дэглээч',
