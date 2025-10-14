@@ -5,6 +5,7 @@ import { aboutImages } from '@/data/about-images';
 import { useLanguage } from '@/contexts/language-context';
 import { useState } from 'react';
 import { div } from 'framer-motion/client';
+import SimpleLoadingImage from '@/components/simple-loading-image';
 
 export default function AboutPage() {
   const { language, t } = useLanguage();
@@ -49,12 +50,13 @@ export default function AboutPage() {
               <div className="flex flex-col lg:flex-row gap-8 lg:items-stretch">
                 {/* Director Image */}
                 <div className="flex-shrink-0 flex flex-col justify-between lg:max-w-sm">
-                  <Image 
+                  <SimpleLoadingImage 
                     src="https://news.mn/wp-content/uploads/2019/05/X8A23701-404x500.jpg" 
                     width={400} 
                     height={500} 
                     alt={language === 'en' ? 'Tsoggerel Gonchig, Director' : 'Гончигийн Цоггэрэл, Захирал'}
                     className="rounded-lg shadow-lg object-cover w-full h-auto mx-auto lg:mx-0"
+                    itemId="director-image"
                   />
                   <div className="mt-4 text-center">
                     <h4 className="text-lg font-bold text-gold classic-heading mb-2">
@@ -110,12 +112,13 @@ export default function AboutPage() {
               <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-12">
                 {/* Mobile: Theater Image on top */}
                 <div className="w-full lg:hidden mb-8">
-                  <Image 
+                  <SimpleLoadingImage 
                     src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teartzurag.jpg" 
                     width={400} 
                     height={600} 
                     alt={language === 'en' ? 'National Grand Art Theater' : 'Үндэсний Урлагийн Их Театр'}
                     className="rounded-lg shadow-2xl object-cover w-full h-auto"
+                    itemId="theater-image-mobile"
                   />
                 </div>
 
@@ -161,12 +164,13 @@ export default function AboutPage() {
                 {/* Desktop: Theater Image on right */}
                 <div className="hidden lg:block w-1/2">
                   <div className="h-full">
-                    <Image 
+                    <SimpleLoadingImage 
                       src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teartzurag.jpg" 
                       width={400} 
                       height={800} 
                       alt={language === 'en' ? 'National Grand Art Theater' : 'Үндэсний Урлагийн Их Театр'}
                       className="rounded-lg shadow-2xl object-cover w-full h-full"
+                      itemId="theater-image-desktop"
                     />
                   </div>
                 </div>
@@ -334,11 +338,12 @@ export default function AboutPage() {
              <div>
 
               <div className='flex gap-10 items-center justify-center'>
-                <img
+                <SimpleLoadingImage
                   src={'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/Concert-575.jpg'}
                   alt="Ensemble History"
                   width={1000}
                   height={1000}
+                  itemId="ensemble-history-image"
                 />
               </div>
 

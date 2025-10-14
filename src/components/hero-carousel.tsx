@@ -3,6 +3,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { Play, Calendar, MapPin, Star, X } from 'lucide-react';
 import { useLanguage } from '@/contexts/language-context';
+import SimpleLoadingVideo from './simple-loading-video';
+import SimpleLoadingImage from './simple-loading-image';
 
 export default function HeroCarousel() {
   const { t, language } = useLanguage();
@@ -35,47 +37,26 @@ export default function HeroCarousel() {
       <section className="relative overflow-hidden" suppressHydrationWarning>
         {/* Video Container - Full Width */}
         <div className="w-full relative">
-          {!videoError && (
-            <video
-              ref={videoRef}
-              className="w-full h-auto"
-              style={{
-                objectFit: 'cover',
-                objectPosition: 'center',
-                minHeight: '60vh',
-                maxHeight: '80vh'
-              }}
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              onError={(e) => {
-                console.log('Video failed to load, using fallback image');
-                setVideoError(true);
-              }}
-              onLoadStart={() => console.log('Video loading started')}
-              onCanPlay={() => console.log('Video can play')}
-            >
-              <source src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/4berh.mp4" type="video/mp4" />
-            </video>
-          )}
+          <SimpleLoadingVideo
+            src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/4berh.mp4"
+            fallbackSrc="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=1920&h=1080&fit=crop"
+            className="w-full h-auto"
+            style={{
+              objectFit: 'cover',
+              objectPosition: 'center',
+              minHeight: '60vh',
+              maxHeight: '80vh'
+            }}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            itemId="hero-video"
+          />
           
           {/* Dark Overlay for Better Logo Visibility */}
           <div className="absolute inset-0 bg-black/60"></div>
-          
-          {/* Fallback Background Image */}
-          {videoError && (
-            <div 
-              className="w-full h-auto bg-contain bg-center bg-no-repeat"
-              style={{ 
-                backgroundImage: `url('https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=1920&h=1080&fit=crop')`,
-                objectFit: 'contain',
-                objectPosition: 'center',
-                aspectRatio: '16/9'
-              }}
-            />
-          )}
         </div>
 
         {/* Content Container - Centered Logo Only */}
@@ -83,15 +64,16 @@ export default function HeroCarousel() {
           <div className="w-full max-w-7xl mx-auto flex justify-center">
             {/* Main Logo - Centered and Larger */}
             <div className="relative">
-              <img
+              <SimpleLoadingImage
                 src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/dancerLOGO.png"
                 alt="Mongolian National Ballet"
+                width={800}
+                height={400}
                 className="w-full max-w-4xl h-auto drop-shadow-2xl"
                 style={{ maxWidth: '800px', height: 'auto' }}
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = '/dancerLOGO.png';
-                }}
+                fallbackSrc="/dancerLOGO.png"
+                itemId="hero-logo"
+                priority
               />
             </div>
           </div>
