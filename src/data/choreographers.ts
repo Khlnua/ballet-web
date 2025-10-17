@@ -139,7 +139,7 @@ interface Choreographer {
       ],
       achievementsEn: 'Among his works are the dance drama Arag, the Alungoo Queen scene in Great Queens of Mongolia, the modern dance drama Catwoman, the dance drama Heavenly Saint, choreography for the stage play State Without a Seal, and other pieces such as Wolf Spirit, Great Borjigon, Sacred Hearth, Borjigon Suugsaraa, and Splendor of the Mother Sky. His repertoire also includes dozens of other choreographed dances.',
       achievementsMn: 'Түүний туурвисан уран бүтээлүүдээс дурьдвал "Араг" бүжгэн жүжиг, "Монголын их хатад" Алунгоо хатаны хэсэг, "Муур эмэгтэй" орчин үеийн бүжгэн жүжиг, "Тэнгэрийн хутагт" бүжгэн жүжиг", "Тамгагүй төр" жүжгийн бүжгийн дэглээч, "Чоно сүлд", "Их Боржигон", "Гал голомт", "Боржигон сугсараа", "Эх тэнрэрйин үзэсгэлэн" зэрэг бүжгэн жүжгүүд тайзны бүтээл болон олон арван бүжгүүдийг дэглэсээр яваа дэглээч юм.',
-      image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bagshnar/Kh.Khashkhuu.jpg'
+      image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bagshnar/GDkhashhuu.jpeg'
     },
     {
       id: '5',

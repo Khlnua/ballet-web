@@ -34,7 +34,7 @@ export const performances: Ontsloh[] = [
         choreographerMn: "С.Сүхбаатар",
         musicbyEn: "Kh.Bilegjargal",
         musicbyMn: "Х.Билэгжаргал",
-        video: "https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/videosforfeatures/torguud%20bujgiin%20chuulbar.mp4"
+        video: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/shortvideo/torguud.mp4'
     },
     {
         id: "3",

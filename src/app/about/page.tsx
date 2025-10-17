@@ -51,7 +51,7 @@ export default function AboutPage() {
                 {/* Director Image */}
                 <div className="flex-shrink-0 flex flex-col justify-between lg:max-w-sm">
                   <SimpleLoadingImage 
-                    src="https://news.mn/wp-content/uploads/2019/05/X8A23701-404x500.jpg" 
+                    src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/darga.jpeg" 
                     width={400} 
                     height={500} 
                     alt={language === 'en' ? 'Tsoggerel Gonchig, Director' : 'Гончигийн Цоггэрэл, Захирал'}
