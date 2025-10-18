@@ -22,15 +22,15 @@ interface Choreographer {
       id: '1',
       nameEn: 'Sevjid Tserendulam',
       nameMn: 'Цэрэндуламын Сэвжид',
-      titleEn: 'Choreographer of the Century, People\'s Artist, State Prize Laureate',
+      titleEn: 'Leading Choreographer of the Century, People\'s Artist, State Prize Laureate',
       titleMn: 'Зууны манлай бүжиг дэглээч, Ардын Жүжигчин, Төрийн Шагналт',
       positionEn: 'Chief Choreographer',
       positionMn: 'Ерөнхий бүжиг дэглээч',
-      birthEn: 'Born in 1916 in Khatanzug sum, Dornogovi province',
+      birthEn: 'He was born in 1916 in Khatanbulag soum of Dornogovi aimag.',
       birthMn: '1916 онд Дорноговь аймгийн Хатанбулаг суманд төрсөн',
       timeline: [
         {
-          periodEn: '1936-1939: Actress at Dornogovi provincial club',
+          periodEn: '1936-1939: Actor at Dornogovi provincial club',
           periodMn: '1936-1939 онд Дорноговь аймгийн клубт жүжүигчин'
         },
         {
@@ -38,7 +38,7 @@ interface Choreographer {
           periodMn: '1939-1946 онд Цэргийн театр'
         },
         {
-          periodEn: '1946-1959: Dancer at State Central Theater and provincial theaters',
+          periodEn: '1946-1959: Dancer at the State Central Theater and the theaters of Khovd and Bayan-Ulgii aimags.',
           periodMn: '1946-1959 онд Улсын төв театр болон Ховд, Баян-Өлгий аймгийн театрт бүжигчин'
         },
         {
@@ -46,7 +46,7 @@ interface Choreographer {
           periodMn: '1959 оноос Үндэсний Урлагийн Их Театр-т бүжиг дэглээч багшаар томилогдон ажиллах болсон'
         }
       ],
-      achievementsEn: 'Ts. Sevjid dedicated fifty years of his talent and hard work to the development of Mongolian folk dance. During his career, he choreographed more than 200 dances. Among his most outstanding works are Jalam Khar, Milkmaid, Mongolian Dance Suite, Spinning Wool, Energetic Youth, Young People of the Countryside, and Queens—all considered masterpieces of the Theater\'s repertoire. On November 9, 1996, the Folk Dance Ensemble of the Theater was named after Tserendulam Sevjid, honoring him as People\'s Artist, State Prize Laureate, and the "Choreographer of the Century." His name continues to inspire the ensemble to this day.',
+      achievementsEn:'Sevjid dedicated 50 years of his work and talent to the development of folk dance. Throughout his career, he choreographed over 200 dances. Among them are "Jalam Khar," "The Milkmaid," "The  Mongolian Dance Ensemble," "Eruult," "The Grooms," "The Villagers," "The Queens" and other works that have become masterpieces of the theater\'s modern era. The folk theater dance ensemble was founded  on November 09, 1996, by People\'s Artist of Mongolia, State Prize laureate and leading choreographer of  the century, Sevjid Tserendulam and continues its activities to this day.',
       achievementsMn: 'Ц.Сэвжид ардын бүжгийн хөгжилд 50 жилийн хөдөлмөр, авьяас билгээ зориулсан юм. Тэрээр нийт ажиллаж байх хугацаандаа 200 гаруй бүжиг дэглэсэн. Үүнээс дурьдвал "Жалам хар","Саальчин", "Монгол бүжгийн чуулга", "Ээрүүлт", "Адуучин залуус", "Хөдөө нутгийн залуус", "Хатад" гээд ҮУИТ-ын орчин цагийн сор болсон бүтээлүүд юм. ҮУИТ-ын Бүжгийн чуулгыг 1996 оны 11-р сарын 9-нд Монгол Улсын Ардын жүжигчин, Төрийн шагналт, Зууны манлай бүжиг дэглээч Цэрэндуламын Сэвжидийн нэрээр нэрлэн алдаршуулж өнөөг хүртэл овголсоор байна.',
       image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bagshnar/%D0%A6.%D0%A1%D1%8D%D0%B2%D0%B6%D0%B8%D0%B4.jpg'
     },
@@ -54,15 +54,15 @@ interface Choreographer {
       id: '2',
       nameEn: 'Sukhbaatar Sevjid',
       nameMn: 'Сэвжидийн Сүхбаатар',
-      titleEn: 'Honored Artist, State Prize Laureate, Merited Art Worker',
-      titleMn: 'Хөдөлмөрийн Баатар, Төрийн Шагналт, Урлагийн Гавьяат Зүтгэлтэн',
+      titleEn: 'State Prize Laureate, Honored Artist',
+      titleMn: 'Төрийн Шагналт, Урлагийн Гавьяат Зүтгэлтэн',
       positionEn: 'Chief Choreographer',
       positionMn: 'Ерөнхий бүжиг дэглээч',
-      birthEn: 'Born in 1951 in Ulaanbaatar',
+      birthEn: 'He was born in 1951 in Ulaanbaatar.',
       birthMn: '1951 онд Улаанбаатар хотод төрсөн',
       timeline: [
         {
-          periodEn: '1971: Graduated from Secondary School of Music and Dance as a dancer',
+          periodEn: '1971: Graduated from the Music and Choreography School with a degree in dance',
           periodMn: '1971 онд Хөгжим бүжгийн дунд сургуулийг бүжигчний мэргэжлээр төгссөн'
         },
         {
@@ -70,11 +70,11 @@ interface Choreographer {
           periodMn: '1971-1976 онд ҮУИТ-т бүжигчнээр ажилласан'
         },
         {
-          periodEn: 'Studied choreography and directing at A.V. Lunacharsky State Institute for Theatre Arts, Moscow',
+          periodEn: 'Studied choreography and directing at the A.V.Lunacharsky Moscow State Theatre Institute',
           periodMn: 'ЗХУ-ын Москва хотын А.В.Луначарскийн нэрэмжит театр урлагийн дээд сургуульд бүжиг дэглээч, найруулагчийн мэргэжил эзэмшсэн'
         }
       ],
-      achievementsEn: 'Among his outstanding works are Chichirgene, Shigsregt, Energetic Youth, Tookhuu Goson, The Four Tumens, Mongolian Ethnic Traditions, and Call of the Four Oirads. He staged more than 150 solo, duet, and ensemble dances, bringing them vividly to life on stage. Following in his father\'s footsteps, he also staged Mongolia\'s very first dance dramas—Legend of the Sun and Golden Lineage—thus continuing the artistic legacy of his family while significantly enriching the nation\'s dance heritage.',
+      achievementsEn:'Among his most famous works are Chichirgene, Shigshregt, The Jolly Fellows, Tookhuu Goson, Durvun Tunsag, The Tradition of the Mongols,  The Cry of the Four Oirats and more than 150 solo, group and suite dances as well as the first Mongolian dance dramas The Solar Legend and Altan Urag, in the creation of which he accepted the legacy of his  father.',
       achievementsMn: 'Түүний сор болсон бүтээлээс дурьдвал "Чичиргэнэ", "Шигшрэгт", "Цоглог залуус", "Тоохуу госон", "Дөрвөн тунсаг", "Монгол угсаатаны уламжлал", "Дөрвөн Ойрадын уриа" зэрэг 150 гаруй гоцлол болон цөөхүүл, олон хүний болон свют бүжгийг тайзнаа амилуулхаас гадна аавынхаа орыг залгаж Монголын анхны бүжгэн жүжиг болох "Нарны домог", "Алтан ураг" бүжгэн жүжгүүдийг тайзнаа амилуулсан билээ.',
       image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bagshnar/S.Suhbaatar.JPG'
     },
@@ -82,7 +82,7 @@ interface Choreographer {
       id: '3',
       nameEn: 'Bayarbaatar Davaasuren',
       nameMn: 'Даваасүрэн Баярбаатар',
-      titleEn: 'Merited Art Worker',
+      titleEn: 'Honored Artist',
       titleMn: 'Урлагийн Гавьяат Зүтгэлтэн',
       positionEn: 'Chief Choreographer',
       positionMn: 'Ерөнхий бүжиг дэглээч',
@@ -90,7 +90,7 @@ interface Choreographer {
       birthMn: '1971 онд Говь-Алтай аймгийн Шарга суманд төрсөн',
       timeline: [
         {
-          periodEn: '1988: Graduated as a dancer from Secondary School of Music and Dance',
+          periodEn: '1988: Graduated from the State University of Dance and Music with a degree in dance',
           periodMn: '1988 онд ХБДС-д бүжигчин мэргэжлээр төгссөн'
         },
         {
@@ -98,7 +98,7 @@ interface Choreographer {
           periodMn: '1994-1998 онд СУИС-д бүжиг дэглээч мэргэжил эзэмшиж Магистр зэрэг хамгаалсан'
         },
         {
-          periodEn: 'Studied modern dance at "Atelie Des-mal" Dance Institute, Lyon, France',
+          periodEn: 'Studied modern dance at the Atelier Desmal Dance Institute in Lyon, France.',
           periodMn: 'Францын Лион хотод "Atelie Des-mal" бүжгийн хүрээлэнд орчин үеийн бүжгээр мэргэжил дээшлүүлсэн'
         },
         {
@@ -106,14 +106,14 @@ interface Choreographer {
           periodMn: '2010-2019 он хүртэл ҮУИТ-т Ерөнхий бүжиг дэглээчээр ажиллсан билээ'
         }
       ],
-      achievementsEn: 'During his tenure, he staged more than 100 works, including Joroon Joroo, Let Me Be Your Body, Hunnu Ballad, Ornament of Altai, and Grand Celebration. He also brought to life Mongolia\'s first modern dance dramas such as Wolf Caught in a Trap and Between the Bear and the Dragon, as well as historical dance dramas like Nomads and Great Queens of Mongolia, winning wide acclaim from audiences.',
+      achievementsEn:'During his  career, he performed more than 100 works, including "Joroon Joroo", "I Want to Be Your Body", "Hymn of the Huns", "Decoration of Altai", "Great Holiday" as well as the first modern ballets "Wolf from the  Prophecy", "Between the Bear and the Dragon", historical ballets "Nomad" and "Mongolian Great  Queens" to the delight of the audience. ',
       achievementsMn: 'Ажиллаж байх хугацаандаа "Жороон жороо", "Бие чинь болъё", Хүннү дуулал", "Алтайн чимэг", "Их цэнгэл наадаан" зэрэг 100 гаруй бүтээлийг амилуулж мөн "Мэргэнд буусан чоно", "Баавгай луугийн хооронд" гэх анхнны модерн бүжгэн жүжгүүд, "Нүүдэл", "Монголын их хатад" түүхэн бүжгэн жүжгүүдийг тайзнаа тавьж үзэгч олоны хртээл болгосон билээ.',
       image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bagshnar/%D0%A3%D0%93%D0%97%20%D0%94.%D0%91%D0%90%D0%AF%D0%A0%D0%91%D0%90%D0%90%D0%A2%D0%90%D0%A0.JPG'},
     {
       id: '4',
       nameEn: 'Khashkhuu Khatankhuyag',
       nameMn: 'Хатанхуяг Хашхүү',
-      titleEn: 'Merited Artist',
+      titleEn: 'Cultural leader',
       titleMn: 'Соёлын Тэргүүний Ажилтан',
       positionEn: 'Chief Choreographer',
       positionMn: 'Ерөнхий бүжиг дэглээч',
@@ -137,7 +137,7 @@ interface Choreographer {
           periodMn: '2012 оноос одоог хүртэл ҮУИТ-ын бүжигчин, бүжиг дэглээчээр ажиллаж байна'
         }
       ],
-      achievementsEn: 'Among his works are the dance drama Arag, the Alungoo Queen scene in Great Queens of Mongolia, the modern dance drama Catwoman, the dance drama Heavenly Saint, choreography for the stage play State Without a Seal, and other pieces such as Wolf Spirit, Great Borjigon, Sacred Hearth, Borjigon Suugsaraa, and Splendor of the Mother Sky. His repertoire also includes dozens of other choreographed dances.',
+      achievementsEn:'His works include the ballet "Arag", the role of  Alungoo-khatan in "The Great Queens of Mongolia", the modern ballet "Catwoman", the ballet "Heavenly  Priest", the ballet "State without seal", the ballet "Wolf Totem", "The Great Borjigon", "Gal Golomt",  "Borjigon sugsaraa", "Ekh Tengeriin Erkhes" and many other dances as well as stage productions and  dozens of other dances. ',
       achievementsMn: 'Түүний туурвисан уран бүтээлүүдээс дурьдвал "Араг" бүжгэн жүжиг, "Монголын их хатад" Алунгоо хатаны хэсэг, "Муур эмэгтэй" орчин үеийн бүжгэн жүжиг, "Тэнгэрийн хутагт" бүжгэн жүжиг", "Тамгагүй төр" жүжгийн бүжгийн дэглээч, "Чоно сүлд", "Их Боржигон", "Гал голомт", "Боржигон сугсараа", "Эх тэнрэрйин үзэсгэлэн" зэрэг бүжгэн жүжгүүд тайзны бүтээл болон олон арван бүжгүүдийг дэглэсээр яваа дэглээч юм.',
       image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bagshnar/GDkhashhuu.jpeg'
     },
@@ -165,7 +165,7 @@ interface Choreographer {
           periodMn: '2008 онд СУИС-ыг бүжиг дэглэгч, бүжгийн багшаар төгсөж тэр ондоо ҮУИТ-ын дасгалжуулагч багшаар ажилласан'
         }
       ],
-      achievementsEn: 'Driven by his passion for choreography, he has left behind many remarkable works for the Dance Ensemble. Notable among them are Wind of Shilniin Bogd, Youth of Minjin Khangai, My Borjigon Perch Fish, Dance of the Bridesmaids, and Song of the Bird of the Wind.',
+      achievementsEn:'Throughout his career, he was driven by a desire to pursue choreography and left behind  dozens of successful works for dance ensembles. Among the dances the following stand out: “Wind of  Shiliin Bogd”, “Minjiin Khangain Zaluus”, “Borjigonii Bor Yargai Minu”, “Ber Bereechuudiin Bujig” and “Bird of the Wind”. ',
       achievementsMn: 'Ажиллаж байх хугацаандаа тэрээр бүжиг дэглэх хүсэлдээ хөтлөгдөн олон арван сор болсон бүтээлүүдээ бүжгийн чуулгад үлдээжээ. Бүжүүдээс дурьдвал "Шилнийн богдын салхи", "Минжийн хангайн залуус", "Боржигоны бор яргай мину", "Бэр бэрээчүүдийн бүжиг", "Салхит шувуун" зэрэг юм.',
       image: 'https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/bagshnar/A.Davaakhuu%20(2).JPG'
     }

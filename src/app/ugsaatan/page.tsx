@@ -68,10 +68,11 @@ export default function UgsaatanPage() {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
+                      // Simple fallback without Unicode characters
                       target.src = `data:image/svg+xml;base64,${btoa(`<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="400" height="300" fill="#1a1a2e"/>
                         <rect x="10" y="10" width="380" height="280" rx="10" fill="#f59e0b"/>
-                        <text x="200" y="150" font-family="Arial, sans-serif" font-size="18" fill="#fbbf24" text-anchor="middle">${language === 'en' ? dance.titleEn : dance.titleMn}</text>
+                        <text x="200" y="150" font-family="Arial, sans-serif" font-size="18" fill="#fbbf24" text-anchor="middle">Image Loading...</text>
                       </svg>`)}`;
                     }}
                   />
