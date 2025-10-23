@@ -41,7 +41,7 @@ export default function AboutPage() {
                 </div>
                 
       {/* Main Content with top padding to account for fixed headers */}
-      <div className="max-w-7xl mx-auto px-8 sm:px-16 lg:px-24 xl:px-32 2xl:px-40 pt-32 pb-20">
+      <div className="max-w-7xl mx-auto px-8 sm:px-16 lg:px-24 xl:px-32 2xl:px-40 pt-12 pb-12">
 
         {/* Tab Content */}
         {(() => {

@@ -80,7 +80,7 @@ export default function TheaterHistory() {
           {/* Mobile: Theater Image on top */}
           <div className="w-full lg:hidden mb-8">
             <SimpleLoadingImage 
-              src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teartzurag.jpg" 
+              src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teatre.jpg" 
               width={400} 
               height={600} 
               alt={language === 'en' ? 'National Grand Art Theater' : 'Үндэсний Урлагийн Их Театр'}
@@ -99,21 +99,21 @@ export default function TheaterHistory() {
                 title: language === 'en' ? 'Foundation' : 'Үүсэл',
                 description: language === 'en' 
                   ? 'December 1, 1950 - Official founding date of the ensemble'
-                  : '1950 оны 12 сарын 1-нийг тус чуулга байгуулагдсан түүхэн он гэж тооцож өнөөг хүрлээ'
+                  : '1950 оны 12 сарын 1-нийг тус чуулга байгуулагдсан түүхэн он гэж тооцож өнөөг хүрлээ.'
               },
               {
                 year: '2002',
                 title: language === 'en' ? 'Academic Title' : 'Эрдмийн цол',
                 description: language === 'en'
                   ? 'Awarded the "Academic" title by Resolution No. 166, becoming "Academic Ensemble of National Song and Dance"'
-                  : 'Монгол улсын Засгийн газар 2002 онд тус чуулгын олон жил хүсэн хүлээсэн "Эрдмийн" хэмээх цолыг 166 дугаар тогтоолоор олгож "Үндэсний дуу бүжгийн Эрдмийн чуулга" хэмээн өөрчлөн'
+                  : 'Монгол улсын Засгийн газар 2002 онд тус чуулгын олон жил хүсэн хүлээсэн "Эрдмийн" хэмээх цолыг 166 дугаар тогтоолоор олгож "Үндэсний дуу бүжгийн Эрдмийн чуулга" хэмээн өөрчлөгдсөн.'
               },
               {
                 year: '2016',
                 title: language === 'en' ? 'Current Name' : 'Одоогийн нэр',
                 description: language === 'en'
                   ? 'Renamed to "National Grand Art Theater" by Resolution No. 129 of the Government of Mongolia'
-                  : '2016 онд МУ-н Засгийн газрийн 129 дугаар тогтоолоор Үндэсний Урлагийн Их Театр гэж нэрлэсэн'
+                  : '2016 онд МУ-н Засгийн газрийн 129 дугаар тогтоолоор Үндэсний Урлагийн Их Театр гэж нэрлэсэн.'
               }
             ].map((item, index) => (
               <div key={index} className="relative flex items-start mb-12">
@@ -132,7 +132,7 @@ export default function TheaterHistory() {
           <div className="hidden lg:block w-1/2">
             <div className="h-full">
               <SimpleLoadingImage 
-                src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teartzurag.jpg" 
+                src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/teatre.jpg" 
                 width={400} 
                 height={800} 
                 alt={language === 'en' ? 'National Grand Art Theater' : 'Үндэсний Урлагийн Их Театр'}
