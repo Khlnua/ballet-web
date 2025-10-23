@@ -136,7 +136,7 @@ export default function TheaterHistory() {
                 width={400} 
                 height={800} 
                 alt={language === 'en' ? 'National Grand Art Theater' : 'Үндэсний Урлагийн Их Театр'}
-                className="rounded-lg shadow-2xl object-cover w-full h-full"
+                className="rounded-lg shadow-2xl object-cover w-full h-full flex justify-center items-center"
                 itemId="theater-image-desktop"
               />
             </div>
