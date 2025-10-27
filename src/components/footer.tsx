@@ -10,9 +10,9 @@ export default function Footer() {
   return (
     <footer className="bg-black border-t border-gray-600 px-4 mt-12 pt-8">
       <div className="max-w-7xl mx-auto px-8 py-16" suppressHydrationWarning>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 justify-between items-start justify-items-center text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
        {/* Contact Info */}
-       <div>
+       <div className="w-full">
             <h3 className="text-xl font-semibold mb-6 text-gold classic-heading">{t('footer.contact')}</h3>
             <ul className="space-y-4">
               <li className="flex items-center text-gold-light/80">
@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="w-full">
             <h3 className="text-xl font-semibold mb-6 text-gold classic-heading">{t('footer.quickLinks')}</h3>
             <div className="grid grid-cols-2 gap-x-6 gap-y-2">
               <Link href="/" className="text-gold-light/80 hover:text-gold transition-colors duration-300 classic-text text-lg">
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
 
           {/* Social Media */}
-          <div>
+          <div className="w-full">
             <h3 className="text-xl font-semibold mb-6 text-gold classic-heading">{t('footer.socialMedia')}</h3>
             <div className="flex gap-1">
               <a
