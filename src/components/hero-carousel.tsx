@@ -71,6 +71,7 @@ export default function HeroCarousel() {
         <div className="w-full relative">
           <SimpleLoadingVideo
             src="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/HOMEVIDEO.mp4"
+            poster="https://pub-c732fae67a4540d5ae377e19b62491a7.r2.dev/loadpic.jpg"
             fallbackSrc="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=1920&h=1080&fit=crop"
             className="w-full h-auto"
             style={{
