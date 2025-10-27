@@ -26,7 +26,7 @@ export default function AboutSection() {
           {/* Text Content */}
           <div>
             <h2 className="text-4xl font-bold text-gold mb-6 classic-heading">
-              {language === 'en' ? 'Our Dance Ensemble' : 'Ц.СЭВЖИД-н нэрэмжит бүжгийн чуулга'}
+              {language === 'en' ? 'Mongolian National Ballet' : 'Ц.СЭВЖИД-н нэрэмжит бүжгийн чуулга'}
             </h2>
             <p className="text-lg text-gold-light/90 mb-8 leading-relaxed classic-text">
               {language === 'en' 

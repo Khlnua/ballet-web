@@ -67,18 +67,29 @@ const SimpleLoadingVideo: React.FC<SimpleLoadingVideoProps> = ({
     if (autoPlay && videoLoaded && videoRef.current) {
       const playPromise = videoRef.current.play();
       if (playPromise !== undefined) {
-        playPromise.catch(() => {
-          setIsPlaying(false);
-        });
+        playPromise
+          .then(() => {
+            setIsPlaying(true);
+          })
+          .catch(() => {
+            setIsPlaying(false);
+          });
       }
     }
   }, [autoPlay, videoLoaded]);
+
+  // Handle muted prop changes dynamically
+  useEffect(() => {
+    if (videoRef.current && muted !== undefined) {
+      videoRef.current.muted = muted;
+    }
+  }, [muted]);
 
   return (
     <div className={`relative ${className}`}>
       {/* Loading State - Only show for 3 seconds max */}
       {!videoLoaded && !videoError && (
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 z-10" style={style}>
           <LoadingSkeleton 
             type="video" 
             width="100%" 
@@ -90,7 +101,7 @@ const SimpleLoadingVideo: React.FC<SimpleLoadingVideoProps> = ({
 
       {/* Error State */}
       {videoError && (
-        <div className="flex items-center justify-center bg-black/20 rounded-lg border border-gold/30 min-h-[200px]">
+        <div className="flex items-center justify-center bg-black/20 rounded-lg border border-gold/30 min-h-[200px]" style={style}>
           <div className="text-gold/70 text-center p-4">
             <AlertCircle className="w-12 h-12 mx-auto mb-2" />
             <p className="text-sm">Video unavailable</p>
@@ -100,7 +111,7 @@ const SimpleLoadingVideo: React.FC<SimpleLoadingVideoProps> = ({
 
       {/* Play Button Overlay */}
       {videoLoaded && !isPlaying && showPlayButton && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/30 rounded-lg">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/30 rounded-lg z-10">
           <button
             onClick={handlePlay}
             className="bg-gold/90 hover:bg-gold text-black rounded-full p-4 transition-all duration-300 hover:scale-110 shadow-lg"
@@ -116,7 +127,7 @@ const SimpleLoadingVideo: React.FC<SimpleLoadingVideoProps> = ({
           ref={videoRef}
           src={currentSrc}
           poster={poster}
-          className={`w-full h-full object-cover transition-opacity duration-300 ${
+          className={`w-full transition-opacity duration-300 ${
             videoLoaded ? 'opacity-100' : 'opacity-0'
           }`}
           style={style}

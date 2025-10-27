@@ -2,15 +2,39 @@ import type { NextConfig } from 'next';
 
 const config: NextConfig = {
   images: {
-    domains: [
-      'images.unsplash.com', 
-      'via.placeholder.com', 
-      'picsum.photos',
-      'pub-c732fae67a4540d5ae377e19b62491a7.r2.dev',
-      'static.vecteezy.com',
-      'images.squarespace-cdn.com',
-      'news.mn'
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'picsum.photos',
+      },
+      {
+        protocol: 'https',
+        hostname: 'pub-c732fae67a4540d5ae377e19b62491a7.r2.dev',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.vecteezy.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.squarespace-cdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'news.mn',
+      },
     ],
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   webpack: (config, { isServer }) => {
     if (!isServer) {
